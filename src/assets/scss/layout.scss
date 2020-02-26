@@ -1,0 +1,31 @@
+.main-content {
+   height: calc(100vh - 118px);
+   overflow: auto;
+}
+.temp_calc__container {
+   min-height: 100vh;
+   background-color: #F4F5F7;
+   .temprature-form {
+      width: 600px;
+      padding: 24px;
+      background-color: white;
+      border-radius: 2px;
+      box-shadow: 0px 1px 2px 0px rgba(9, 30, 66, 0.25);
+   }
+}
+::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+}
+::-webkit-scrollbar-thumb {
+   min-width: 70px;
+   min-height: 70px;
+   border-radius: 50px;
+   background: rgba(0, 0, 0, .13);
+}
+::-webkit-scrollbar-thumb:hover {
+   background: rgba(0, 0, 0, .23)
+}
+::-webkit-scrollbar-track {
+   background: transparent
+}
